@@ -1,0 +1,157 @@
+body {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Pinyon Script', cursive;
+  color: #40514E;
+
+}
+
+.p{
+  line-height: 2;
+}
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Pinyon Script', cursive;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted none none;
+  border-color: #84a9ac;
+  width:4%;
+  font: 4px;
+  border-width: thick;
+  margin: 100px auto;
+
+}
+
+.intro{
+  width: 30%;
+  margin:auto;
+}
+
+.achef {
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #e7dfd5;
+  padding-top: 100px;
+  position: relative;
+
+}
+
+.middle-container{
+  margin:100px;
+}
+
+.bottom-container{
+  background-color: #84a9ac;
+  padding: 50px 0 20px;
+}
+
+a{
+  color: #4f8a8b;
+  font-family: 'Pinyon Script', cursive;
+  margin: 10px 30px 0;
+  text-decoration:none;
+}
+
+a:hover{
+  color: #87dfd6;
+}
+
+.skill-row {
+  width:50%;
+  position:relative;
+  margin:100px auto;
+  text-align:left;
+  line-height: 2;
+}
+
+.copyright{
+  color: #dfe7eb;
+  font-size: 0.75rem;
+  margin-top: 30px;
+}
+
+.cook{
+  width:25%;
+  float:left;
+  margin-right:30px;
+}
+
+.sushi{
+  width:20%;
+  float:right;
+}
+
+.talk{
+  width:30%;
+  margin:0 auto 50px;
+}
+
+/*kalo uda les jangan lupa nanya soal kenapa margin di talk bisa dipake
+sedangkan kalau ditulis di a class btn , margin top dia gakmau geser */
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 650px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 650px;
+  top: 50px;
+}
+
+.pp {
+  width: 200px;
+  height: 200px;
+}
+
+.btn {
+  background: #11ccd4;
+  background-image: -webkit-linear-gradient(top, #11ccd4, #096ead);
+  background-image: -moz-linear-gradient(top, #11ccd4, #096ead);
+  background-image: -ms-linear-gradient(top, #11ccd4, #096ead);
+  background-image: -o-linear-gradient(top, #11ccd4, #096ead);
+  background-image: linear-gradient(to bottom, #11ccd4, #096ead);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Pinyon Script', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #dfe7eb;
+  background-image: -webkit-linear-gradient(top, #dfe7eb, #1361d6);
+  background-image: -moz-linear-gradient(top, #dfe7eb, #1361d6);
+  background-image: -ms-linear-gradient(top, #dfe7eb, #1361d6);
+  background-image: -o-linear-gradient(top, #dfe7eb, #1361d6);
+  background-image: linear-gradient(to bottom, #dfe7eb, #1361d6);
+  text-decoration: none;
+}
